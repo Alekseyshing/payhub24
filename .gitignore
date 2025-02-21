@@ -1,0 +1,28 @@
+# Node.js зависимости
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Конфигурационные файлы
+.env
+
+# Лог файлы
+logs/
+*.log
+*.gz
+
+# Кеш и временные файлы
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.iml
+
+# Build файлы
+dist/
+out/
