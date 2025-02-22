@@ -121,6 +121,8 @@ footer {
     transition: all 0.3s ease;
 }
 
+.hero, 
+.about,
 .hero-content, 
 .features, 
 .features-cards,
