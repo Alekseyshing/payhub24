@@ -243,7 +243,34 @@ footer {
 .contact__button:hover {
     background-color: #218838; /* Цвет фона кнопки при наведении */
 }
-
+.contact {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact__title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .contact__text {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .contact__email {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .contact__email-link {
+    color: #007bff; /* Цвет ссылки */
+    text-decoration: none; /* Без подчеркивания */
+  }
+  
+  .contact__email-link:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+  }
 /* Медиа-запрос для адаптации под мобильные устройства */
 @media (max-width: 600px) {
     .contact {
