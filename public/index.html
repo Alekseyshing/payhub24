@@ -55,6 +55,36 @@
 
   <!-- JS для SPA и бургер-меню -->
   <script src="js/script.js"></script>
+
+  <!-- Скрипт для смены фонового изображения -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Массив с путями к вашим изображениям
+      const images = [
+        '/images/minimalism/image1.png',
+        '/images/minimalism/image2.png',
+        '/images/minimalism/image3.png',
+        '/images/minimalism/image4.png',
+        '/images/minimalism/image5.png'
+      ];
+      
+      // Функция для смены фонового изображения
+      function changeBackground() {
+        const randomImage = images[Math.floor(Math.random() * images.length)];
+        document.body.style.backgroundImage = `url(${randomImage})`;
+      }
+      
+      // Установка начального фонового изображения
+      changeBackground();
+      
+      // При клике на любой элемент навигации меняем фон
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', function() {
+          changeBackground();
+        });
+      });
+    });
+  </script>
   
   <!-- AOS JS (опционально для анимаций) -->
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
@@ -64,5 +94,6 @@
       once: true,
     });
   </script>
+  
 </body>
 </html>
