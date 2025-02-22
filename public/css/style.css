@@ -276,8 +276,8 @@ footer {
     display: inline-block; /* Отображение кнопки как блочный элемент */
     padding: 15px 30px; /* Отступы внутри кнопки */
     font-size: 1.2em; /* Размер шрифта */
-    color: #fff; /* Цвет текста */
-    background-color:  rgba(255, 255, 255, 0.8);
+    color: #333; /* Цвет текста */
+    background-color:  rgba(255, 255, 255, 0.2);
     border: none; /* Убираем границы */
     border-radius: 5px; /* Закругление углов */
     text-decoration: none; /* Убираем подчеркивание */
