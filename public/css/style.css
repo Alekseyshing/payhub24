@@ -271,6 +271,22 @@ footer {
   .contact__email-link:hover {
     text-decoration: underline; /* Подчеркивание при наведении */
   }
+
+  .btn-cta {
+    display: inline-block; /* Отображение кнопки как блочный элемент */
+    padding: 15px 30px; /* Отступы внутри кнопки */
+    font-size: 1.2em; /* Размер шрифта */
+    color: #fff; /* Цвет текста */
+    background-color: #007bff; /* Цвет фона */
+    border: none; /* Убираем границы */
+    border-radius: 5px; /* Закругление углов */
+    text-decoration: none; /* Убираем подчеркивание */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+}
+
+.btn-cta:hover {
+    background-color: #0056b3; /* Темный цвет фона при наведении */
+}
 /* Медиа-запрос для адаптации под мобильные устройства */
 @media (max-width: 600px) {
     .contact {
