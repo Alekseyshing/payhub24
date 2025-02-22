@@ -277,7 +277,7 @@ footer {
     padding: 15px 30px; /* Отступы внутри кнопки */
     font-size: 1.2em; /* Размер шрифта */
     color: #fff; /* Цвет текста */
-    background-color: #007bff; /* Цвет фона */
+    background-color:  rgba(255, 255, 255, 0.8);
     border: none; /* Убираем границы */
     border-radius: 5px; /* Закругление углов */
     text-decoration: none; /* Убираем подчеркивание */
@@ -285,7 +285,7 @@ footer {
 }
 
 .btn-cta:hover {
-    background-color: #0056b3; /* Темный цвет фона при наведении */
+    background-color:  rgba(255, 255, 255, 0.8); /* Темный цвет фона при наведении */
 }
 /* Медиа-запрос для адаптации под мобильные устройства */
 @media (max-width: 600px) {
