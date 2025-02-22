@@ -195,6 +195,11 @@ footer {
     color: #007bff;
     margin-bottom: 10px;
 }
+
+.services {
+    margin: 100px auto; /* Центрирование формы */
+}
+
 .contact {
     max-width: 600px; /* Максимальная ширина формы */
     margin: 100px auto; /* Центрирование формы */
