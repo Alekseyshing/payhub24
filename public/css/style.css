@@ -10,11 +10,10 @@ html, body {
     scrollbar-color: #1d1f23 #f6f8fb;
 }
 
-/* Кастомный скролл для Chrome, Edge и Safari */
-/* WebKit-браузеры */
+/* Общие настройки для WebKit-браузеров */
 ::-webkit-scrollbar {
-    width: 8px;  /* Для вертикальных скроллбаров */
-    height: 2px; /* Для горизонтальных скроллбаров */
+    width: 8px;   /* для вертикального скроллбара */
+    height: 8px;  /* для горизонтального скроллбара */
   }
   
   ::-webkit-scrollbar-track {
@@ -30,7 +29,7 @@ html, body {
     background: #555;
   }
   
-  /* Firefox */
+  /* Настройки для Firefox */
   * {
     scrollbar-width: thin;
     scrollbar-color: #888 #f1f1f1;
@@ -232,6 +231,11 @@ footer {
     .nav-active {
         transform: translateX(0);
     }
+
+    ::-webkit-scrollbar {
+        width: 4px;   /* уменьшаем ширину вертикального скроллбара */
+        height: 4px;  /* уменьшаем высоту горизонтального скроллбара */
+      }
 }
 
 .burger.toggle .line1 {
