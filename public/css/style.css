@@ -60,11 +60,13 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
-    background: #1d1f23;
+    background: rgba(26, 25, 25, 0.5);      
     position: relative;
     width: 100%;
     box-sizing: border-box;
 }
+
+
 
 .logo img {
     width: 150px;
@@ -94,7 +96,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background: #1d1f23;
+    background: rgba(26, 25, 25, 0.5);      
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -119,6 +121,7 @@ footer {
     transition: all 0.3s ease;
 }
 
+.hero,
 .hero-content, 
 .features, 
 .features-cards,
@@ -282,7 +285,7 @@ footer {
     padding: 15px 30px; /* Отступы внутри кнопки */
     font-size: 1.2em; /* Размер шрифта */
     color: #333; /* Цвет текста */
-    background-color:  rgba(255, 255, 255, 0.2);
+    background-color:  rgba(20, 17, 17, 0.2);
     border: none; /* Убираем границы */
     border-radius: 5px; /* Закругление углов */
     text-decoration: none; /* Убираем подчеркивание */
@@ -290,7 +293,7 @@ footer {
 }
 
 .btn-cta:hover {
-    background-color:  rgba(255, 255, 255, 0.8); /* Темный цвет фона при наведении */
+    background-color:  rgba(90, 82, 82, 0.5); /* Темный цвет фона при наведении */
 }
 /* Медиа-запрос для адаптации под мобильные устройства */
 @media (max-width: 600px) {
