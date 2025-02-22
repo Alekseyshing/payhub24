@@ -48,5 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       nav.classList.toggle("nav-active");
       burger.classList.toggle("toggle");
       document.body.classList.toggle("no-scroll");
-    });
+    });  
   });
+
+

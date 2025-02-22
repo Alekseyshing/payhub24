@@ -39,8 +39,8 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #f6f8fb;
     transition: background-image 0.9s ease-in-out;    
-    /* background-repeat: no-repeat; */
-    /* background-size: cover;      Изображение масштабируется так, чтобы полностью покрыть область */
+    /* background-repeat: no-repeat;
+    background-size: cover;      Изображение масштабируется так, чтобы полностью покрыть область */
     background-position: center;  
     color: #333;
 }
@@ -121,12 +121,13 @@ footer {
 
 .hero-content, 
 .features, 
-.features-cards  {
+.features-cards,
+.services  {
     padding: 20px;
     border-radius: 10px;
 }
 
-.features, .hero, .about-intro, .about-card  {
+.features, .hero, .about-intro, .about-card, .services  {
     background-color: rgba(255, 255, 255, 0.8); /* Белый цвет с 50% прозрачностью */
 }
 
@@ -193,6 +194,70 @@ footer {
     font-size: 40px;
     color: #007bff;
     margin-bottom: 10px;
+}
+.contact {
+    max-width: 600px; /* Максимальная ширина формы */
+    margin: 0 auto; /* Центрирование формы */
+    padding: 20px; /* Отступы внутри блока */
+    background-color: #f9f9f9; /* Фоновый цвет */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень */
+    box-sizing: border-box; /* Включение отступов и границ в общую ширину */
+}
+
+.contact__title {
+    text-align: center; /* Центрирование заголовка */
+    color: #333; /* Цвет текста */
+    font-family: Arial, sans-serif; /* Шрифт заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.contact__label {
+    display: block; /* Отображение меток блочно */
+    margin-bottom: 5px; /* Отступ снизу */
+    color: #555; /* Цвет меток */
+}
+
+.contact__input,
+.contact__textarea {
+    width: 100%; /* Ширина на всю ширину родителя */
+    padding: 10px; /* Отступы внутри полей */
+    margin-bottom: 15px; /* Отступ снизу */
+    border: 1px solid #ccc; /* Цвет рамки */
+    border-radius: 5px; /* Закругление углов */
+    font-size: 16px; /* Размер шрифта */
+    box-sizing: border-box; /* Включение отступов и границ в общую ширину */
+}
+
+.contact__button {
+    background-color: #28a745; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закругление углов кнопки */
+    padding: 10px 15px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Указатель на кнопку */
+    font-size: 16px; /* Размер шрифта кнопки */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.contact__button:hover {
+    background-color: #218838; /* Цвет фона кнопки при наведении */
+}
+
+/* Медиа-запрос для адаптации под мобильные устройства */
+@media (max-width: 600px) {
+    .contact {
+        padding: 15px; /* Уменьшение отступов на мобильных устройствах */
+    }
+
+    .contact__input,
+    .contact__textarea {
+        padding: 10px; /* Поддержание отступов внутри полей */
+    }
+
+    .contact__button {
+        width: 100%; /* Кнопка на всю ширину на мобильных */
+    }
 }
 
 @media (max-width: 768px) {
