@@ -71,6 +71,7 @@ header {
 .logo img {
     width: 150px;
     max-width: 100%;
+    cursor: pointer;
 }
 
 nav ul {

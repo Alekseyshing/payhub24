@@ -4,6 +4,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
 
+    const logo = document.querySelector(".logo");
+
+    if (logo) {
+        logo.addEventListener("click", function () {
+            location.reload(); // Перезагружает страницу
+        });
+    }
+
     // Функция загрузки страниц (SPA-логика)
     async function loadPage(page) {
         try {
