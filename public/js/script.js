@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (logo) {
         logo.addEventListener("click", function () {
-            location.reload(); // Перезагружает страницу
+            window.location.href = "/home";
         });
     }
 
