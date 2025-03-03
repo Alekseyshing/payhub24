@@ -74,6 +74,14 @@ header {
     cursor: pointer;
 }
 
+.logo :hover {
+  background-color: rgba(55, 141, 108, 0.2); 
+  border-radius: 10px;
+  transition: all 0.3ms ease-in-out;
+  box-shadow: #1d1f23;
+}
+
+
 nav ul {
     list-style: none;
     display: flex;
