@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const logo = document.querySelector(".logo");
 
-    if (logo) {
-        logo.addEventListener("click", function () {
-            window.location.href = "/home";
-        });
-    }
+    // if (logo) {
+    //     logo.addEventListener("click", function () {
+    //         window.location.href = "/home";
+    //     });
+    // }
 
     // Функция загрузки страниц (SPA-логика)
     async function loadPage(page) {
